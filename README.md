@@ -1,15 +1,15 @@
-# BIK'IN PARIS - ETUDE DU TRAFFIC CYCLISTE
-
-## PRESENTATION DU JEU DE DONNEES
-
-<br>
-
-L'objectif de notre étude est de réaliser une <b>analyse des données récoltées par des compteurs vélos</b> déployés par la mairie dans la ville de Paris afin de visualiser les horaires et les principales zones d’affluence.
-
-Le jeu de données est constitué de <u>771 788 lignes et de 9 variables</u>: <em>Identifiant du compteur, Nom du compteur, Identifiant du site de comptage, Nom du site de comptage, Comptage horaire, Date et heure de comptage, Date d'installation du site de comptage, Lien vers la photo du site de comptage</em> et <em>Coordonnées géographiques</em>.
-
-|    | Identifiant du compteur   | Nom du compteur                   |   Identifiant du site de comptage | Nom du site de comptage           |   Comptage horaire | Date et heure de comptage   | Date d'installation du site de comptage   | Lien vers photo du site de comptage                           | Coordonnées géographiques   |
-|---:|:--------------------------|:----------------------------------|----------------------------------:|:----------------------------------|-------------------:|:----------------------------|:------------------------------------------|:--------------------------------------------------------------|:----------------------------|
+> # BIK'IN PARIS - ETUDE DU TRAFFIC CYCLISTE
+> 
+> ## PRESENTATION DU JEU DE DONNEES
+> 
+> <br>
+> 
+> L'objectif de notre étude est de réaliser une <b>analyse des données récoltées par des compteurs vélos</b> déployés par la mairie dans la ville de Paris afin de visualiser les horaires et les principales zones d’affluence.
+> 
+> Le jeu de données est constitué de <u>771 788 lignes et de 9 variables</u>: <em>Identifiant du compteur, Nom du compteur, Identifiant du site de comptage, Nom du site de comptage, Comptage horaire, Date et heure de comptage, Date d'installation du site de comptage, Lien vers la photo du site de comptage</em> et <em>Coordonnées géographiques</em>.
+> 
+> |    | Identifiant du compteur   | Nom du compteur                   |   Identifiant du site de comptage | Nom du site de comptage           |   Comptage horaire | Date et heure de comptage   | Date d'installation du site de comptage   | Lien vers photo du site de comptage                           | Coordonnées géographiques   |
+> |---:|:--------------------------|:----------------------------------|----------------------------------:|:----------------------------------|-------------------:|:----------------------------|:------------------------------------------|:--------------------------------------------------------------|:----------------------------|
 |  0 | 100003096-SC              | 97 avenue Denfert Rochereau SO-NE |                       1.00003e+08 | 97 avenue Denfert Rochereau SO-NE |                  0 | 2019-09-01T06:00:00+02:00   | 2012-02-22                                | https://www.eco-visio.net/Photos/100003096/15765766519670.jpg | 48.83511,2.33338            |
 |  1 | 100003096-SC              | 97 avenue Denfert Rochereau SO-NE |                       1.00003e+08 | 97 avenue Denfert Rochereau SO-NE |                  0 | 2019-09-01T03:00:00+02:00   | 2012-02-22                                | https://www.eco-visio.net/Photos/100003096/15765766519670.jpg | 48.83511,2.33338            |
 |  2 | 100003096-SC              | 97 avenue Denfert Rochereau SO-NE |                       1.00003e+08 | 97 avenue Denfert Rochereau SO-NE |                  0 | 2019-09-01T04:00:00+02:00   | 2012-02-22                                | https://www.eco-visio.net/Photos/100003096/15765766519670.jpg | 48.83511,2.33338            |
