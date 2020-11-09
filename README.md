@@ -5,7 +5,7 @@
 ## Contributrices
 
 * [Hiba HAFSI](https://www.linkedin.com/in/hafsihiba/)
-* Soumaya BENZAID
+* [Soumaya BENZAID](https://www.linkedin.com/in/soumaya-benzaid-a93b52193)
 * [Audrey NANGO](https://www.linkedin.com/in/audrey-suzie-nango-05889a15b/)
 
 ## PRESENTATION DU JEU DE DONNEES
