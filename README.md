@@ -354,7 +354,7 @@ Nous ne pouvons donc pas conclure que ce modèle soit particulièrement performa
 
 Nous allons à présent visualiser les prédictions faites sur un jour de week-end afin de comparer nos résultats avec ceux du jour de semaine obtenus précédemment. En suivant le même procédé que celui développé plus haut, voici la visualisation obtenue:
 
-![predictions](https://github.com/DataScientest/Bik_in_Paris/blob/main/visu-predictions.png)  
+![predictions](https://github.com/DataScientest/Bik_in_Paris/blob/main/visu-predictions-samedi.png)  
 
 La tendance générale reste globalement semblable entre les prédictions et la réalité, mais nous ne pouvons pas pour autant conclure que la prédiction soit particulièrement fiable: les prédictions faites par le modèle présentent un écart souvent supérieur à 50 comptages durant la journée et pouvant aller jusqu'à plus de 150 comptages d'écartssur certaines heures.
 
