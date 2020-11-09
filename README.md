@@ -1,5 +1,7 @@
 # BIK'IN PARIS - ETUDE DU TRAFFIC CYCLISTE
 
+![compteur_velo](https://github.com/DataScientest/Bik_in_Paris/blob/main/visualisations/compteur_velo.png)
+
 ## PRESENTATION DU JEU DE DONNEES
 
 <br>
