@@ -2,7 +2,7 @@
 
 ![compteur_velo](https://github.com/DataScientest/Bik_in_Paris/blob/main/visualisations/compteur_velo.png)
 
-## Contributeurs
+## Contributrices
 
 * [Hiba HAFSI](https://www.linkedin.com/in/hafsihiba/)
 * Soumaya BENZAID
