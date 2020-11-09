@@ -2,6 +2,12 @@
 
 ![compteur_velo](https://github.com/DataScientest/Bik_in_Paris/blob/main/visualisations/compteur_velo.png)
 
+## Contributeurs
+
+* [Hiba HAFSI](https://www.linkedin.com/in/hafsihiba/)
+* Soumaya BENZAID
+* [Audrey NANGO](https://www.linkedin.com/in/audrey-suzie-nango-05889a15b/)
+
 ## PRESENTATION DU JEU DE DONNEES
 
 <br>
