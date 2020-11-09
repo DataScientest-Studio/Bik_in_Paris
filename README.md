@@ -344,7 +344,7 @@ Nous choisissons de faire apparaître une visualisation sur un compteur: "89 bou
 
 Nous ajustons ensuite notre fenêtre de comptage horaire sur 7, notre ajustage le plus large testé précédemment. Puis nous définissons à nouveau nos données d'entraînement contenant toutes les données de notre dataset mis à part celles que nous cherchons à prédire, et nos données de test correspondant à celles du compteur et de la date choisis. Après avoir entraîné notre modèle puis après avoir fait notre prédiction, nous obtenons la visualisation suivante:
 
-![predictions3](https://github.com/DataScientest/Bik_in_Paris/blob/main/predictions3.png) 
+![predictions3](https://github.com/DataScientest/Bik_in_Paris/blob/main/visu-predictions3.png) 
 
 Cette visualisation nous permet d'observer que le modèle du Gradient Boosting Regressor nous donne des prédictions fiables lors des heures creuses mais ne permet pas de prédire avec précision le comptage horaire durant les heures de pointe. La différence entre le comptage horaire réel et les prédictions possède pour ces heures là une différence au moins égale à 50 comptages. Par ailleurs on observe également que les prédictions affichent en heure de pointe un résultat toujours inférieur au comptage réel. Cela est dû aux variations trop fortes du comptage horaire sur les heures de pointe entre chaque journée qui rend les prédictions moins fiables.
 
@@ -354,7 +354,7 @@ Nous ne pouvons donc pas conclure que ce modèle soit particulièrement performa
 
 Nous allons à présent visualiser les prédictions faites sur un jour de week-end afin de comparer nos résultats avec ceux du jour de semaine obtenus précédemment. En suivant le même procédé que celui développé plus haut, voici la visualisation obtenue:
 
-![predictions](https://github.com/DataScientest/Bik_in_Paris/blob/main/predictions.png)  
+![predictions](https://github.com/DataScientest/Bik_in_Paris/blob/main/visu-predictions.png)  
 
 La tendance générale reste globalement semblable entre les prédictions et la réalité, mais nous ne pouvons pas pour autant conclure que la prédiction soit particulièrement fiable: les prédictions faites par le modèle présentent un écart souvent supérieur à 50 comptages durant la journée et pouvant aller jusqu'à plus de 150 comptages d'écartssur certaines heures.
 
