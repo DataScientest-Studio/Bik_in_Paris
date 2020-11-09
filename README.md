@@ -35,7 +35,7 @@ Le prétraitement des données à été réalisé en plusieurs étapes à savoir
 
 ### Emplacements géographiques des compteurs
 
-![carte_paris](https://github.com/DataScientest/Bik_in_Paris/blob/main/carte_paris.png)
+![carte_paris](https://github.com/DataScientest/Bik_in_Paris/blob/main/visualisations/carte_paris.png)
 
 Cette carte géographique de la ville de Paris nous permet de déterminer les emplacements de chaque compteur mentionné dans notre jeu de données, ainsi que leur poids de comptage horaire représenté par la taille de chaque point. 
 
@@ -52,7 +52,7 @@ Nous allons dans un premier temps présenter nos principales visualisations du C
 #### Visualisation du comptage horaire par mois grâce à un barplot
 
 
-![comptage_mois2](https://github.com/DataScientest/Bik_in_Paris/blob/main/comptage_mois2.png)
+![comptage_mois2](https://github.com/DataScientest/Bik_in_Paris/blob/main/visualisations/comptage_mois2.png)
 
 Cette première visualisation nous permet de constater que les mois de juin, juillet et septembre sont ceux qui connaissent le plus grand nombre de comptage horaire avec un moyenne située autour de 80: nous pouvons le justifier par le fait que les utilisateurs font davantage de vélo en été puisque le beau temps le permet, alors que la baisse du mois d'août s'explique plutôt par les départs en vacances. 
 
@@ -69,11 +69,11 @@ Nous analysons alors l’affluence sur trois lundis de périodes différentes :
  - Le <u>lundi 18 novembre 2019</u> : journée classique
  - Le <u>lundi 23 mars 2020</u> : lors du début du confinement
 
-![comptage_9dec2](https://github.com/DataScientest/Bik_in_Paris/blob/main/comptage_9dec2.png) 
+![comptage_9dec2](https://github.com/DataScientest/Bik_in_Paris/blob/main/visualisations/comptage_9dec2.png) 
 On constate que le comptage horaire de cette journée de début de grève SNCF est très élevé, dépassant 500 comptages par heure en heure de pointe, contre une moyenne habituelle de 135 pour les mêmes horaires. 
-![comptage_18nov](https://github.com/DataScientest/Bik_in_Paris/blob/main/comptage_18nov.png)
+![comptage_18nov](https://github.com/DataScientest/Bik_in_Paris/blob/main/visualisations/comptage_18nov.png)
 Lors de ce lundi classique de travail, durant un mois de novembre où l’utilisation mensuelle est dans la moyenne, on constate que l’utilisation du compteur se situe autour de 300 en heure de pointe et autour de 100 durant le reste de la journée.
-![comptage_23mars2](https://github.com/DataScientest/Bik_in_Paris/blob/main/comptage_23mars2.png) 
+![comptage_23mars2](https://github.com/DataScientest/Bik_in_Paris/blob/main/visualisations/comptage_23mars2.png) 
 Notre dernier jour sélectionné est le premier lundi du confinement suite au Covid-19. On constate alors une très faible utilisation de vélos, sans différence notable entre les heures creuses et heures de pointe. L’utilisation moyenne du compteur se situe autour de 50.
 
 #### Etude de la corrélation entre le comptage horaire et le mois par le test ANOVA
@@ -92,7 +92,7 @@ Nous pouvons alors conclure de ces premières visualisations ainsi que de notre 
 ### Visualisation du comptage horaire selon le jour de la semaine
 
 
-![comptage_semaine1](https://github.com/DataScientest/Bik_in_Paris/blob/main/comptage_semaine1.png)
+![comptage_semaine1](https://github.com/DataScientest/Bik_in_Paris/blob/main/visualisations/comptage_semaine1.png)
 
 On constate que les vélos sont utilisés de manière homogène chaque jour de la semaine avec une moyenne de comptage horaire qui se situe autour de 60. 
 
@@ -118,7 +118,7 @@ Ainsi, nous pouvons conclure de cette deuxième analyse ainsi que du test de cor
 
 #### Visualisation du comptage horaire moyen selon l’heure de la journée
 
-![comptage_heure](https://github.com/DataScientest/Bik_in_Paris/blob/main/comptage_heure.png)
+![comptage_heure](https://github.com/DataScientest/Bik_in_Paris/blob/main/visualisations/comptage_heure.png)
 
 On constate que les vélos sont utilisés majoritairement durant les heures de pointe, c’est à dire de 8h à 10h ainsi que de 18h à 20h.
 Une moyenne de 110 utilisateurs par heure sont comptabilisés entre 8h et 10h et une moyenne de 135 utilisateurs entre 18h et 20h.
@@ -127,7 +127,7 @@ Le reste de la journée indique une moyenne relativement stable et située autou
 
 #### Visualisation du comptage horaire de chaque jour de la semaine
 
-![comptage_heure_barplot4](https://github.com/DataScientest/Bik_in_Paris/blob/main/comptage_heure_barplot4.png) 
+![comptage_heure_barplot4](https://github.com/DataScientest/Bik_in_Paris/blob/main/visualisations/comptage_heure_barplot4.png) 
 
 Cette visualisation nous permet d'avoir une vision des moyennes de comptage horaire de chaque journée de la semaine et du week-end. 
 
@@ -136,7 +136,7 @@ On constate ainsi que les conclusions tirées grâce au graphique précédent so
 #### Visualisation du comptage horaire pour chaque jour de la semaine et selon l'heure
 <br/>
 
-![comptage_heure_par_jour7](https://github.com/DataScientest/Bik_in_Paris/blob/main/comptage_heure_par_jour7.png) 
+![comptage_heure_par_jour7](https://github.com/DataScientest/Bik_in_Paris/blob/main/visualisations/comptage_heure_par_jour7.png) 
 
 Ce graphique, qui présente chaque jour de semaine dans l'ordre, nous permet d'avoir une vision du comptage horaire par jour, et ainsi de mieux de nous rendre compte de la différence notable de variation entre la semaine et le week-end. 
 
@@ -344,7 +344,7 @@ Nous choisissons de faire apparaître une visualisation sur un compteur: "89 bou
 
 Nous ajustons ensuite notre fenêtre de comptage horaire sur 7, notre ajustage le plus large testé précédemment. Puis nous définissons à nouveau nos données d'entraînement contenant toutes les données de notre dataset mis à part celles que nous cherchons à prédire, et nos données de test correspondant à celles du compteur et de la date choisis. Après avoir entraîné notre modèle puis après avoir fait notre prédiction, nous obtenons la visualisation suivante:
 
-![predictions3](https://github.com/DataScientest/Bik_in_Paris/blob/main/visu-predictions3.png) 
+![predictions3](https://github.com/DataScientest/Bik_in_Paris/blob/main/visualisations/visu-predictions3.png) 
 
 Cette visualisation nous permet d'observer que le modèle du Gradient Boosting Regressor nous donne des prédictions fiables lors des heures creuses mais ne permet pas de prédire avec précision le comptage horaire durant les heures de pointe. La différence entre le comptage horaire réel et les prédictions possède pour ces heures là une différence au moins égale à 50 comptages. Par ailleurs on observe également que les prédictions affichent en heure de pointe un résultat toujours inférieur au comptage réel. Cela est dû aux variations trop fortes du comptage horaire sur les heures de pointe entre chaque journée qui rend les prédictions moins fiables.
 
@@ -354,7 +354,7 @@ Nous ne pouvons donc pas conclure que ce modèle soit particulièrement performa
 
 Nous allons à présent visualiser les prédictions faites sur un jour de week-end afin de comparer nos résultats avec ceux du jour de semaine obtenus précédemment. En suivant le même procédé que celui développé plus haut, voici la visualisation obtenue:
 
-![predictions](https://github.com/DataScientest/Bik_in_Paris/blob/main/visu-predictions-samedi.png)  
+![predictions](https://github.com/DataScientest/Bik_in_Paris/blob/main/visualisations/visu-predictions-samedi.png)  
 
 La tendance générale reste globalement semblable entre les prédictions et la réalité, mais nous ne pouvons pas pour autant conclure que la prédiction soit particulièrement fiable: les prédictions faites par le modèle présentent un écart souvent supérieur à 50 comptages durant la journée et pouvant aller jusqu'à plus de 150 comptages d'écartssur certaines heures.
 
